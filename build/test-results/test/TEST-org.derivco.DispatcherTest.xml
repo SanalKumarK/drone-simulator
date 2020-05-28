@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.derivco.DispatcherTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-05-26T07:51:03" hostname="SANAL-PC" time="11.329">
+  <properties/>
+  <testcase name="startDroneMultipeTimes()" classname="org.derivco.DispatcherTest" time="1.028"/>
+  <testcase name="startDrone()" classname="org.derivco.DispatcherTest" time="0.002"/>
+  <testcase name="testDroneLifeCycle()" classname="org.derivco.DispatcherTest" time="10.296"/>
+  <system-out><![CDATA[Adding request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Thu Mar 22 07:47:55 CET 2001}
+Adding request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Tue Mar 22 07:47:55 CET 2011}
+Adding request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=Tue Mar 22 07:48:01 CET 2011}
+Adding request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=Tue Mar 22 07:48:01 CET 2011}
+Adding request Request{droneId=7007, latitude=51.520215, longitude=-0.097722, time=Tue Mar 22 07:48:07 CET 2011}
+Adding request Request{droneId=7007, latitude=51.520215, longitude=-0.097722, time=Tue Mar 22 07:00:07 CET 2011}
+Adding request Request{droneId=7007, latitude=51.478935, longitude=-0.172237, time=null}
+Adding request Request{droneId=7007, latitude=51.478935, longitude=-0.172237, time=Tue Mar 22 07:48:11 CET 7}
+Adding request Request{droneId=7007, latitude=51.478897, longitude=-0.172087, time=null}
+Adding request Request{droneId=7007, latitude=51.478897, longitude=-0.172087, time=Tue Mar 22 07:48:29 CET 2011}
+Adding request Request{droneId=7007, latitude=51.541209, longitude=-0.299516, time=Tue Mar 22 07:48:39 CET 2011}
+Adding request Request{droneId=7007, latitude=51.541209, longitude=-0.299516, time=null}
+Adding request Request{droneId=7007, latitude=51.51503, longitude=-0.073162, time=null}
+Adding request Request{droneId=7007, latitude=51.514342, longitude=-0.075627, time=Tue Mar 22 07:49:09 CET 2011}
+Adding request Request{droneId=7007, latitude=51.51503, longitude=-0.073162, time=Tue Mar 22 07:48:59 CET 2011}
+Adding request Request{droneId=7007, latitude=51.503071, longitude=-0.280303, time=Tue Mar 22 07:49:10 CET 2011}
+Adding request Request{droneId=7007, latitude=51.514342, longitude=-0.075627, time=Tue Mar 22 07:49:09 CET 2011}
+Adding request Request{droneId=7007, latitude=51.503071, longitude=-0.280303, time=Tue Mar 22 07:49:10 CET 2011}
+Removing request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Thu Mar 22 07:47:55 CET 2001}
+Removing request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Tue Mar 22 07:47:55 CET 2011}
+Adding request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Tue Mar 22 07:48:11 CET 7}
+Removing request Request{droneId=7007, latitude=51.474579, longitude=-0.171834, time=Tue Mar 22 07:48:11 CET 7}
+Adding request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=null}
+Adding request Request{droneId=7007, latitude=51.520215, longitude=-0.097722, time=null}
+Adding request Request{droneId=7007, latitude=51.478935, longitude=-0.172237, time=Tue Mar 22 07:48:23 CET 2011}
+Drone 7007 : Moving to coordinate(51.474579, -0.171834)
+Drone 7007 : Moving to coordinate(51.474579, -0.171834)
+Adding request Request{droneId=7007, latitude=51.478897, longitude=-0.172087, time=Tue Mar 22 07:48:29 CET 2011}
+Adding request Request{droneId=7007, latitude=51.541209, longitude=-0.299516, time=Tue Mar 22 07:48:39 CET 2011}
+Drone 7007 : Moving to coordinate(51.474579, -0.171834)
+Adding request Request{droneId=7007, latitude=51.51503, longitude=-0.073162, time=Tue Mar 22 07:48:59 CET 2011}
+Adding request Request{droneId=7007, latitude=51.514342, longitude=-0.075627, time=Tue Mar 22 07:49:09 CET 2011}
+Adding request Request{droneId=7007, latitude=51.503071, longitude=-0.280303, time=Tue Mar 22 07:49:10 CET 2011}
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -63530010175
+Sleeping time is lesser than time:Tue Mar 22 07:47:51 CET 2011 -315532796
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702991
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=Tue Mar 22 07:48:01 CET 2011}
+Drone 7007 : Moving to coordinate(51.565491, -0.135122)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702985
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=null}
+Drone 7007 : Moving to coordinate(51.565491, -0.135122)
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.565491, longitude=-0.135122, time=Tue Mar 22 07:48:01 CET 2011}
+Drone 7007 : Moving to coordinate(51.565491, -0.135122)
+Drone 7007 : Found a Tube Station at "Archway".
+Drone 7007 : Found a Tube Station at "Archway".
+Drone 7007 : "Archway" Traffic Report {droneId=7007, time=Tue Mar 22 07:48:01 CET 2011, speed=50, traffic=MODERATE'}
+Drone 7007 : "Archway" Traffic Report {droneId=7007, time=null, speed=50, traffic=LIGHT'}
+Removing request Request{droneId=7007, latitude=51.520215, longitude=-0.097722, time=null}
+Removing request Request{droneId=7007, latitude=51.520215, longitude=-0.097722, time=Tue Mar 22 07:48:07 CET 2011}
+Drone 7007 : Moving to coordinate(51.520215, -0.097722)
+Drone 7007 : Moving to coordinate(51.520215, -0.097722)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702979
+Drone 7007 : Found a Tube Station at "Barbican".
+Drone 7007 : "Barbican" Traffic Report {droneId=7007, time=null, speed=50, traffic=HEAVY'}
+Removing request Request{droneId=7007, latitude=51.478935, longitude=-0.172237, time=Tue Mar 22 07:48:23 CET 2011}
+Drone 7007 : Found a Tube Station at "Barbican".
+Drone 7007 : Moving to coordinate(51.478935, -0.172237)
+Drone 7007 : "Barbican" Traffic Report {droneId=7007, time=Tue Mar 22 07:48:07 CET 2011, speed=50, traffic=HEAVY'}
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702963
+Removing request Request{droneId=7007, latitude=51.478935, longitude=-0.172237, time=Tue Mar 22 07:48:11 CET 7}
+Drone 7007 : Moving to coordinate(51.478935, -0.172237)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -63530010175
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.478897, longitude=-0.172087, time=Tue Mar 22 07:48:29 CET 2011}
+Drone 7007 : Moving to coordinate(51.478897, -0.172087)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702957
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.541209, longitude=-0.299516, time=null}
+Drone 7007 : Moving to coordinate(51.541209, -0.299516)
+Drone 7007 : Found a Tube Station at "Alperton".
+Drone 7007 : "Alperton" Traffic Report {droneId=7007, time=null, speed=50, traffic=HEAVY'}
+Removing request Request{droneId=7007, latitude=51.51503, longitude=-0.073162, time=null}
+Drone 7007 : Moving to coordinate(51.515030, -0.073162)
+Drone 7007 : Found a Tube Station at "Aldgate".
+Drone 7007 : "Aldgate" Traffic Report {droneId=7007, time=null, speed=50, traffic=HEAVY'}
+Removing request Request{droneId=7007, latitude=51.514342, longitude=-0.075627, time=Tue Mar 22 07:49:09 CET 2011}
+Drone 7007 : Moving to coordinate(51.514342, -0.075627)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702917
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.478897, longitude=-0.172087, time=Tue Mar 22 07:48:29 CET 2011}
+Drone 7007 : Moving to coordinate(51.478897, -0.172087)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702957
+Drone 7007 : Found a Tube Station at "Aldgate".
+Drone 7007 : No Tube Station found in the range.
+Removing request Request{droneId=7007, latitude=51.541209, longitude=-0.299516, time=Tue Mar 22 07:48:39 CET 2011}
+Drone 7007 : Moving to coordinate(51.541209, -0.299516)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702947
+Drone 7007 : "Aldgate" Traffic Report {droneId=7007, time=Tue Mar 22 07:49:09 CET 2011, speed=50, traffic=MODERATE'}
+Removing request Request{droneId=7007, latitude=51.503071, longitude=-0.280303, time=Tue Mar 22 07:49:10 CET 2011}
+Drone 7007 : Moving to coordinate(51.503071, -0.280303)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702916
+Drone 7007 : Found a Tube Station at "Alperton".
+Drone 7007 : "Alperton" Traffic Report {droneId=7007, time=Tue Mar 22 07:48:39 CET 2011, speed=50, traffic=LIGHT'}
+Removing request Request{droneId=7007, latitude=51.51503, longitude=-0.073162, time=Tue Mar 22 07:48:59 CET 2011}
+Drone 7007 : Moving to coordinate(51.515030, -0.073162)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702927
+Drone 7007 : Found a Tube Station at "Acton Town".
+Drone 7007 : "Acton Town" Traffic Report {droneId=7007, time=Tue Mar 22 07:49:10 CET 2011, speed=50, traffic=MODERATE'}
+Drone 7007 : Found a Tube Station at "Aldgate".
+Drone 7007 : "Aldgate" Traffic Report {droneId=7007, time=Tue Mar 22 07:48:59 CET 2011, speed=50, traffic=LIGHT'}
+Removing request Request{droneId=7007, latitude=51.514342, longitude=-0.075627, time=Tue Mar 22 07:49:09 CET 2011}
+Drone 7007 : Moving to coordinate(51.514342, -0.075627)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702917
+Drone 7007 : Found a Tube Station at "Aldgate".
+Drone 7007 : "Aldgate" Traffic Report {droneId=7007, time=Tue Mar 22 07:49:09 CET 2011, speed=50, traffic=LIGHT'}
+Removing request Request{droneId=7007, latitude=51.503071, longitude=-0.280303, time=Tue Mar 22 07:49:10 CET 2011}
+Drone 7007 : Moving to coordinate(51.503071, -0.280303)
+Sleeping time is lesser than time:Tue May 26 09:51:05 CEST 2020 -289702916
+Drone 7007 : Found a Tube Station at "Acton Town".
+Drone 7007 : "Acton Town" Traffic Report {droneId=7007, time=Tue Mar 22 07:49:10 CET 2011, speed=50, traffic=HEAVY'}
+Shutting down the drone : 7007
+Drone 7007 : Found a Tube Station at "Archway".
+Drone 7007 : "Archway" Traffic Report {droneId=7007, time=Tue Mar 22 07:48:01 CET 2011, speed=50, traffic=HEAVY'}
+]]></system-out>
+  <system-err><![CDATA[For input string: ".23011E4."
+For input string: ".23011E4.23011E4"
+For input string: ""
+multiple points
+multiple points
+multiple points
+]]></system-err>
+</testsuite>

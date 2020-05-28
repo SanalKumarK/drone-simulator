@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.derivco.data.TubeStationProviderTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-05-26T07:51:02" hostname="SANAL-PC" time="0.71">
+  <properties/>
+  <testcase name="getTubeStationNotInRange()" classname="org.derivco.data.TubeStationProviderTest" time="0.704"/>
+  <testcase name="getTubeStationInRange()" classname="org.derivco.data.TubeStationProviderTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
